@@ -1,33 +1,15 @@
 
 <!-- PROJECT LOGO -->
+<a id="readme-top"></a>
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="assets/logo_document.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Medical Abstract Classifier</h3>
+  <h1 align="center">Medical Abstract Classifier</h1>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-  </ol>
-</details>
 
 
 
@@ -39,47 +21,26 @@ This project builds a natural language processing (NLP) model to automatically c
 * Uses token-level, character-level, and positional embeddings for deep contextual understanding.
 * Incorporates custom feature engineering like line number and total lines to support positional encoding. 
 * Implements multi-input deep learning pipelines with TensorFlow and Keras.
-* Acheived 83% accuracy.
+* Acheives 83% accuracy.
 * Uses the PubMed 20k RCT dataset.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
+## Built With
 * [![TensorFlow][TensorFlow]][TensorFlow-url]
 * [![Keras][Keras]][Keras-url]
 * [![Python][Python]][Python-url]
 * [![Pandas][Pandas]][Pandas-url]
 * [![Matplotlib][Matplotlib]][Matplotlib-url]
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
-### Prerequisites
-1. TensorFlow 2.15.0 must be installed
+1. Paste the following link into your browser to open the notebook in colab, then press **"Run All"**
     ```sh
-    !pip install tensorflow==2.15.0 
+    https://colab.research.google.com/github/nithinkosanam/Medical-Abstract-Classifier/blob/main/medical_abstract_classifier.ipynb
     ```
-
-2. TensorFlow Hub 2.15.0 must be installed
-    ```sh
-    tensorflow-hub keras==2.15.0
-    ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-### Installation
-1. Clone the repo
-   ```sh
-   git clone https://github.com/nithinkosanam/Medical-Abstract-Classifier.git
-   cd Medical-Abstract-Classifier
-   ```
-2. Run the notebook (or run in colab)
-   ```sh
-   jupyter notebook
-   ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+2. Colab will ask you to restart the session, click **"Restart Session"** and then press **"Run All"** 
 
 
 
